@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ApiSuite" duration-ms="9370" started-at="2021-05-30T15:59:31 AEST" finished-at="2021-05-30T15:59:40 AEST">
+    <groups>
+    </groups>
+    <test name="ApiTest" duration-ms="9370" started-at="2021-05-30T15:59:31 AEST" finished-at="2021-05-30T15:59:40 AEST">
+      <class name="TopResultApi_Test">
+        <test-method status="PASS" signature="BefTestMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="BefTestMethod" is-config="true" duration-ms="4516" started-at="2021-05-30T15:59:31 AEST" finished-at="2021-05-30T15:59:36 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://localhost:8080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefTestMethod -->
+        <test-method status="PASS" signature="E_401_getAPITest_InCorrectCredentials()[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="E_401_getAPITest_InCorrectCredentials" duration-ms="3370" started-at="2021-05-30T15:59:36 AEST" finished-at="2021-05-30T15:59:39 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_401_getAPITest_InCorrectCredentials -->
+        <test-method status="PASS" signature="E_500_getAPITest_NegCount()[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="E_500_getAPITest_NegCount" duration-ms="160" started-at="2021-05-30T15:59:39 AEST" finished-at="2021-05-30T15:59:39 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_500_getAPITest_NegCount -->
+        <test-method status="PASS" signature="GetTopResultsApi_Test(int)[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="GetTopResultsApi_Test" duration-ms="112" started-at="2021-05-30T15:59:39 AEST" data-provider="DataForApi" finished-at="2021-05-30T15:59:39 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTopResultsApi_Test -->
+        <test-method status="PASS" signature="GetTopResultsApi_Test(int)[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="GetTopResultsApi_Test" duration-ms="104" started-at="2021-05-30T15:59:39 AEST" data-provider="DataForApi" finished-at="2021-05-30T15:59:39 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTopResultsApi_Test -->
+        <test-method status="PASS" signature="GetTopResultsApi_Test(int)[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="GetTopResultsApi_Test" duration-ms="124" started-at="2021-05-30T15:59:39 AEST" data-provider="DataForApi" finished-at="2021-05-30T15:59:40 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTopResultsApi_Test -->
+        <test-method status="PASS" signature="GetTopResultsApi_Test(int)[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="GetTopResultsApi_Test" duration-ms="71" started-at="2021-05-30T15:59:40 AEST" data-provider="DataForApi" finished-at="2021-05-30T15:59:40 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTopResultsApi_Test -->
+        <test-method status="PASS" signature="GetTopResultsApi_Test(int)[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="GetTopResultsApi_Test" duration-ms="80" started-at="2021-05-30T15:59:40 AEST" data-provider="DataForApi" finished-at="2021-05-30T15:59:40 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTopResultsApi_Test -->
+        <test-method status="PASS" signature="validateSchema()[pri:0, instance:TopResultApi_Test@1b68ddbd]" name="validateSchema" duration-ms="776" started-at="2021-05-30T15:59:40 AEST" finished-at="2021-05-30T15:59:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSchema -->
+      </class> <!-- TopResultApi_Test -->
+    </test> <!-- ApiTest -->
+  </suite> <!-- ApiSuite -->
+</testng-results>

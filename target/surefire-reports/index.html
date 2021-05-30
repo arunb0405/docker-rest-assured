@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ApiSuite">
+              <span class="suite-name border-passed">ApiSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ApiSuite">
+                    <span>C:\TestProject\docker-ass\Rest-Assured\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ApiSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ApiSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ApiSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ApiSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ApiSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ApiSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ApiSuite" class="hide-methods passed suite-ApiSuite"> (hide)</a> <!-- hide-methods passed suite-ApiSuite -->
+                      <a href="#" panel-name="suite-ApiSuite" class="show-methods passed suite-ApiSuite"> (show)</a> <!-- show-methods passed suite-ApiSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ApiSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="E_401_getAPITest_InCorrectCredentials">E_401_getAPITest_InCorrectCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="E_500_getAPITest_NegCount">E_500_getAPITest_NegCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="GetTopResultsApi_Test(3)">GetTopResultsApi_Test(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="GetTopResultsApi_Test(2)">GetTopResultsApi_Test(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="GetTopResultsApi_Test(1)">GetTopResultsApi_Test(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="GetTopResultsApi_Test(4)">GetTopResultsApi_Test(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="GetTopResultsApi_Test(0)">GetTopResultsApi_Test(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApiSuite" title="TopResultApi_Test" hash-for-method="validateSchema">validateSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ApiSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ApiSuite" class="panel ApiSuite">
+          <div class="suite-ApiSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TopResultApi_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_401_getAPITest_InCorrectCredentials">
+                  </a> <!-- E_401_getAPITest_InCorrectCredentials -->
+                  <span class="method-name">E_401_getAPITest_InCorrectCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_500_getAPITest_NegCount">
+                  </a> <!-- E_500_getAPITest_NegCount -->
+                  <span class="method-name">E_500_getAPITest_NegCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetTopResultsApi_Test(3)">
+                  </a> <!-- GetTopResultsApi_Test(3) -->
+                  <span class="method-name">GetTopResultsApi_Test</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetTopResultsApi_Test(2)">
+                  </a> <!-- GetTopResultsApi_Test(2) -->
+                  <span class="method-name">GetTopResultsApi_Test</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetTopResultsApi_Test(1)">
+                  </a> <!-- GetTopResultsApi_Test(1) -->
+                  <span class="method-name">GetTopResultsApi_Test</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetTopResultsApi_Test(4)">
+                  </a> <!-- GetTopResultsApi_Test(4) -->
+                  <span class="method-name">GetTopResultsApi_Test</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetTopResultsApi_Test(0)">
+                  </a> <!-- GetTopResultsApi_Test(0) -->
+                  <span class="method-name">GetTopResultsApi_Test</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSchema">
+                  </a> <!-- validateSchema -->
+                  <span class="method-name">validateSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApiSuite-class-passed -->
+        </div> <!-- panel ApiSuite -->
+        <div panel-name="test-xml-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\TestProject\docker-ass\Rest-Assured\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;ApiSuite&quot;&gt;
+  &lt;parameter name=&quot;baseUrl&quot; value=&quot;http://localhost:8080&quot;/&gt;
+  &lt;parameter name=&quot;maxTestVal&quot; value=&quot;5&quot;/&gt;
+  &lt;parameter name=&quot;uname&quot; value=&quot;admin&quot;/&gt;
+  &lt;parameter name=&quot;pwd&quot; value=&quot;password&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ApiTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TopResultApi_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ApiTest --&gt;
+&lt;/suite&gt; &lt;!-- ApiSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ApiSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ApiTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ApiSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ApiSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ApiSuite');
+function tableData_ApiSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'E_401_getAPITest_InCorrectCredentials')
+data.setCell(0, 2, 'TopResultApi_Test')
+data.setCell(0, 3, 3370);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateSchema')
+data.setCell(1, 2, 'TopResultApi_Test')
+data.setCell(1, 3, 776);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'E_500_getAPITest_NegCount')
+data.setCell(2, 2, 'TopResultApi_Test')
+data.setCell(2, 3, 160);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GetTopResultsApi_Test')
+data.setCell(3, 2, 'TopResultApi_Test')
+data.setCell(3, 3, 124);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GetTopResultsApi_Test')
+data.setCell(4, 2, 'TopResultApi_Test')
+data.setCell(4, 3, 112);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'GetTopResultsApi_Test')
+data.setCell(5, 2, 'TopResultApi_Test')
+data.setCell(5, 3, 104);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GetTopResultsApi_Test')
+data.setCell(6, 2, 'TopResultApi_Test')
+data.setCell(6, 3, 80);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GetTopResultsApi_Test')
+data.setCell(7, 2, 'TopResultApi_Test')
+data.setCell(7, 3, 71);
+window.suiteTableData['ApiSuite']= { tableData: data, tableDiv: 'times-div-ApiSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-ApiSuite">
+              </div> <!-- times-div-ApiSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ApiSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ApiSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TopResultApi_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BefTestMethod(5, admin, password, http://localhost:8080)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">E_401_getAPITest_InCorrectCredentials</span>
+                <span class="method-start">4556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_500_getAPITest_NegCount</span>
+                <span class="method-start">7926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetTopResultsApi_Test(0)</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetTopResultsApi_Test(1)</span>
+                <span class="method-start">8206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetTopResultsApi_Test(2)</span>
+                <span class="method-start">8310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetTopResultsApi_Test(3)</span>
+                <span class="method-start">8435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetTopResultsApi_Test(4)</span>
+                <span class="method-start">8506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSchema</span>
+                <span class="method-start">8586 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
